@@ -1,0 +1,46 @@
+{
+    "name": "piggly/php-api-entities",
+    "description": "Base entities to apis.",
+    "keywords": [
+        "piggly",
+        "apis",
+        "data mapper",
+        "entities"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/piggly-dev/php-api-entities",
+    "autoload": {
+        "psr-4": {
+            "Piggly\\Api\\Entities": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "piggly/php-value-types": "^1.0"
+    },
+    "require-dev": {
+        "php": "^7.3 || ^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caique Araujo",
+            "email": "caique@piggly.com.br",
+            "homepage": "https://github.com/caiquearaujo",
+            "role": "Developer"
+        },
+        {
+            "name": "Piggly Dev",
+            "email": "dev@piggly.com.br",
+            "homepage": "https://github.com/dev",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable"
+}
